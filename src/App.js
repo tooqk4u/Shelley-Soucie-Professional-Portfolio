@@ -3,8 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Projects from './components/Projects';
-import Contact from './components/Contact';
-import About from './components/About';
+import Contact from './components/Contact/Contact';
+import About from './components/About/About';
 //const [contactSelected, setContactSelected] = useState(false);
 
 
