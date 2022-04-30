@@ -1,25 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import About from './components/About';
+//const [contactSelected, setContactSelected] = useState(false);
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <div data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0">
+      <About />
+      <Projects/>
+      <Contact/>
+      </div>
+      <Footer />
     </div>
   );
 }
+
+
 
 export default App;
