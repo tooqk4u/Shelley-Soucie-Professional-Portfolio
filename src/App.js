@@ -1,27 +1,37 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Projects from './components/Projects';
-import Contact from './components/Contact/Contact';
+import React, { useState } from 'react';
+import Header from './components/Header/Header';
 import About from './components/About/About';
-//const [contactSelected, setContactSelected] = useState(false);
-
-
+import Footer from './components/Footer/Footer';
+import Portfolio from './components/Portfolio/Portfolio';
+import Contact from './components/Contact/Contact';
+import Resume from './components/Resume/Resume'
+// renders main layout of app
 function App() {
+  // sets the page state to control rendering of sections
+  const [currentPage, handlePageChange] = useState('About');
+  // toggles different sections based on user clicks in navigation
+  const renderPage = () => {
+    switch(currentPage) {
+      case 'Portfolio':
+        return <Portfolio></Portfolio>;
+      case 'Contact':
+        return <Contact />;
+      case 'Resume':
+        return <Resume />;
+      default:
+        return <About />;
+    }
+  };
+
   return (
-    <div>
-      <Navbar />
-      <div data-bs-spy="scroll" data-bs-target="#navbarNav" data-bs-offset="0">
-      <About />
-      <Projects/>
-      <Contact/>
-      </div>
+    <div className="overflow-hidden">
+      <Header handlePageChange={handlePageChange}></Header>
+      <main>
+       {renderPage()}
+      </main>
       <Footer />
     </div>
   );
 }
-
-
 
 export default App;
