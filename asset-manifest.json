@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Shelley-Soucie-Professional-Portfolio/static/css/main.20a207e8.css",
+    "main.js": "/Shelley-Soucie-Professional-Portfolio/static/js/main.9458a589.js",
+    "static/js/787.496fbeb3.chunk.js": "/Shelley-Soucie-Professional-Portfolio/static/js/787.496fbeb3.chunk.js",
+    "static/media/0.webp": "/Shelley-Soucie-Professional-Portfolio/static/media/0.b87ecd96afd107b4c2aa.webp",
+    "static/media/1.webp": "/Shelley-Soucie-Professional-Portfolio/static/media/1.35a21db2db9e84035f46.webp",
+    "static/media/7.webp": "/Shelley-Soucie-Professional-Portfolio/static/media/7.f4fe6ceee1909e6d0d39.webp",
+    "static/media/danielle.PNG": "/Shelley-Soucie-Professional-Portfolio/static/media/danielle.796745d5b9ec64f60fa7.PNG",
+    "static/media/2.webp": "/Shelley-Soucie-Professional-Portfolio/static/media/2.37850f5dfc06d1c657dc.webp",
+    "static/media/3.webp": "/Shelley-Soucie-Professional-Portfolio/static/media/3.0f7bcd20276b7c30f01d.webp",
+    "static/media/4.webp": "/Shelley-Soucie-Professional-Portfolio/static/media/4.0baddfdcc1ac32b76b98.webp",
+    "static/media/5.webp": "/Shelley-Soucie-Professional-Portfolio/static/media/5.65c107345ee035c52fba.webp",
+    "static/media/6.webp": "/Shelley-Soucie-Professional-Portfolio/static/media/6.9c9ff2b95dbbbdab40df.webp",
+    "index.html": "/Shelley-Soucie-Professional-Portfolio/index.html",
+    "main.20a207e8.css.map": "/Shelley-Soucie-Professional-Portfolio/static/css/main.20a207e8.css.map",
+    "main.9458a589.js.map": "/Shelley-Soucie-Professional-Portfolio/static/js/main.9458a589.js.map",
+    "787.496fbeb3.chunk.js.map": "/Shelley-Soucie-Professional-Portfolio/static/js/787.496fbeb3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20a207e8.css",
+    "static/js/main.9458a589.js"
+  ]
+}
