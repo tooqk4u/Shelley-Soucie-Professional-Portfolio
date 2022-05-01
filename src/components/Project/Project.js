@@ -35,8 +35,8 @@ function Project(props) {
               <Accordion.Collapse eventKey="0">
                 <Card.Img
                   src={
-                    require(`../../assets/images/projects/${i}.webp`)
-                      .default
+                    `assets/images/projects/${i}.webp`
+                      
                   }
                   className="project"
                 />
