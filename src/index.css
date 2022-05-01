@@ -17,7 +17,7 @@ theme text 1(cultured): #F5F3F4
   --accent-theme: rgb(0, 136, 255);
   --text-theme: #F5F3F4;
   --accent-dark: grey;
-  --accent-light: yellow;
+  --accent-light: blue;
 }
 
 .bg-theme-1 {
@@ -54,7 +54,7 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: blue;
+  background-color: rgb(0, 136, 255);
   outline: 1px solid #433737;
   border-radius: 25px;
   box-shadow: 0 1px #43373D;
@@ -345,9 +345,11 @@ footer {
 
 .contact-link {
   font-size: 2.2em;
+  color: white;
 }
 
 .footer-links {
+  
   width: 15rem;
 }
 
@@ -360,6 +362,7 @@ footer p {
 }
 
 .icon {
+  
   position: relative;
   top: 8px;
 }
